@@ -4,7 +4,7 @@
 
 ---
 
-### 🚀 [CANLI DEMOYU DENEYİMLE / LIVE PREVIEW](https://muhammededev.github.io/the-web-history/)
+### 🚀 [CANLI YAYIN/ LIVE ON WEB](https://muhammededev.github.io/the-web-history/)
 *(Yukarıdaki linke tıklayarak projeyi tarayıcınızda anında deneyimleyebilirsiniz!)*
 
 ---
