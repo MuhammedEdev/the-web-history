@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>THE WEB HISTORY // İnternet Zaman Makinesi (1990 - 2026)</title>
+
+    <meta name="description"
+        content="1990'dan 2026'ya internet teknolojilerinin evrimini interaktif bir yolculukla keşfedin.">
+    <meta name="keywords" content="web history, internet evolution, timeline, 1990 web, 6G, AI, The Web History">
+    <meta name="author" content="The Web History Project">
+
+    <meta property="og:title" content="The Web History // Zaman Yolculuğu">
+    <meta property="og:description" content="İnternetin 36 yıllık teknolojik devrimi.">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200">
+    <meta name="theme-color" content="#00ff00">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="era-1990">
+    <span id="cursor" aria-hidden="true"></span>
+
+    <nav class="lang-nav">
+        <button onclick="setLang('tr')" id="btn-tr" class="active">TR</button>
+        <button onclick="setLang('en')" id="btn-en">EN</button>
+    </nav>
+
+    <main class="bento-grid">
+        <section class="card card-hero">
+            <header>THE_WEB_HISTORY_CORE</header>
+            <article>
+                <h1 id="year-display">1990</h1>
+                <h2 id="title-display">ANALOG_DAWN</h2>
+            </article>
+        </section>
+
+        <section class="card card-info">
+            <header>HISTORY_LOG</header>
+            <p id="desc-display">Yükleniyor...</p>
+        </section>
+
+        <section class="card card-tech">
+            <header>STACK_PROTOCOLS</header>
+            <ul id="tech-list"></ul>
+        </section>
+
+        <section class="card card-stats">
+            <header>NETWORK_THROUGHPUT</header>
+            <article class="stat-content">
+                <span id="speed-display">14.4 KBPS</span>
+                <meter id="year-meter" min="1990" max="2026" value="1990"></meter>
+            </article>
+        </section>
+
+        <footer class="card card-ui">
+            <header>CHRONOLOGY_CONTROL</header>
+            <input type="range" min="1990" max="2026" step="1" value="1990" id="main-slider" aria-label="Zaman Seçici">
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
