@@ -35,4 +35,4 @@ Projeyi kendi yerel bilgisayarınızda çalıştırmak oldukça basittir, herhan
 
 ### 1. Depoyu Klonlayın (Clone the Repo)
 ```bash
-git clone [https://github.com/MuhammedEdev/the-web-history.git](https://github.com/MuhammedEdev/the-web-history.git)
+git clone https://muhammededev.github.io/the-web-history/
